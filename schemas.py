@@ -145,6 +145,7 @@ class CaseListResponse(BaseModel):
     id: int
     title: str
     difficulty: str
+    diagnosis: str
     created_at: datetime
 
     class Config:
